@@ -6,8 +6,9 @@
 
 <struts>
     <package name="default" extends="struts-default" namespace="/">
-        <action name="login" class="com.junxu.action.LoginAction">
+        <action name="logn" class="com.junxu.action.LoginAction">
             <result name="success">/success.jsp</result>
         </action>
     </package>
+    <constant name="struts.devMode" value="true"></constant>
 </struts>

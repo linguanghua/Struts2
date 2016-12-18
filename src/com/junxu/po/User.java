@@ -1,11 +1,36 @@
 package com.junxu.po;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
- * Created by LinXu on 2016/12/17.
+ * Created by LinXu on 2016/12/18.
  */
+@Entity
 public class User {
+    private String id;
     private String username;
     private String password;
+
+    public User(){
+
+    }
+
+
+    @Id
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+
+    @Override
+    public String toString() {
+        return getUsername()+" "+getPassword();
+    }
 
     public String getUsername() {
         return username;
