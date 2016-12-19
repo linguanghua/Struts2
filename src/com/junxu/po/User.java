@@ -16,7 +16,6 @@ public class User {
 
     }
 
-
     @Id
     public String getId() {
         return id;

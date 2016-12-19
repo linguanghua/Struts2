@@ -12,7 +12,6 @@
       <root url="jar://$PROJECT_DIR$/lib/asm-commons.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-io.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/freemarker.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/javassist.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
